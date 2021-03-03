@@ -1,19 +1,42 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
+This project aims to present a Java project with Spring Boot using the factory and strategy pattern.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.4.3/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.4.3/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.4.3/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/2.4.3/reference/htmlsingle/#production-ready)
+This API processes a purchase using a specific payment method
 
-### Guides
-The following guides illustrate how to use some features concretely:
+Technologies used: Java, Spring Boot, Maven, Swagger, Lombok
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Building a RESTful Web Service with Spring Boot Actuator](https://spring.io/guides/gs/actuator-service/)
+### Pre-Requires
 
+- JDK 11
+- Maven 3
+
+## Commands
+
+- Compile project
+
+  `mvn compile`
+
+- Clear target directory
+
+  `mvn clean`
+
+- Test project
+
+  `mvn test`
+
+- Start project
+
+  `mvn spring-boot:run`
+
+- Install packages
+
+  `mvn install`
+
+---
+
+## Swagger
+
+- The generated swagger html page is available in the following address
+
+  `http://localhost:8080/swagger-ui.html`
