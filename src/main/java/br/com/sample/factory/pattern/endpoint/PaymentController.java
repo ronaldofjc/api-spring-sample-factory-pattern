@@ -29,7 +29,7 @@ public class PaymentController {
     private final ProcessPayment processPayment;
 
     @PostMapping
-    @Operation(summary = "Realiza o processamento de um método de pagamento")
+    @Operation(summary = "Processa um método de pagamento")
     @ApiResponses(value = {@ApiResponse(responseCode = "200", description = "Ok",
             content = {@Content(mediaType = "application/json", schema = @Schema(implementation = Payment.class))}),
             @ApiResponse(responseCode = "400", description = "Invalid parameters", content = @Content),
